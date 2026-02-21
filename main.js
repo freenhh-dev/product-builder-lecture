@@ -28,6 +28,14 @@ document.addEventListener('DOMContentLoaded', () => {
         displayLottoNumbers(lottoNumbers);
     });
 
+    // Disqus Integration
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://product-builder-lecture.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+
     function generateLottoNumbers() {
         const numbers = new Set();
         while (numbers.size < 6) {

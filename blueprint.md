@@ -10,6 +10,7 @@ The goal is to create a simple web page that generates and displays six unique r
 
 - **Lotto Number Generator:** Generates 6 unique numbers (1-45) and displays them.
 - **Dark Mode Support:** Users can toggle between light and dark themes. Preference is saved in local storage.
+- **Disqus Comments:** Integrated Disqus thread for user feedback and discussion.
 
 ## Project Structure
 
