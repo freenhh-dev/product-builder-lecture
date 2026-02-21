@@ -11,12 +11,15 @@ The goal is to create a simple web page that generates and displays six unique r
 - **Lotto Number Generator:** Generates 6 unique numbers (1-45) and displays them.
 - **Dark Mode Support:** Users can toggle between light and dark themes. Preference is saved in local storage.
 - **Disqus Comments:** Integrated Disqus thread for user feedback and discussion.
+- **Animal Face Test:** Teachable Machine model to classify Dog vs Cat from uploaded images.
 
 ## Project Structure
 
-*   `index.html`: The main HTML file.
-*   `style.css`: The CSS file for styling the page.
-*   `main.js`: The JavaScript file for generating the lottery numbers.
+*   `index.html`: The main Lotto page.
+*   `animal-test.html`: The Animal Face Test page.
+*   `style.css`: Shared styles for both pages.
+*   `main.js`: Shared logic (theme, disqus) and Lotto logic.
+*   `animal-test.js`: Logic for image classification.
 
 ## Plan
 

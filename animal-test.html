@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Face Test</title>
+    <link href='/style.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="index.html" class="nav-link">Lotto</a>
+        <a href="animal-test.html" class="nav-link active">Animal Test</a>
+    </nav>
+    <div class="container">
+        <div class="theme-switch-wrapper">
+            <button id="theme-toggle">🌙 Dark Mode</button>
+        </div>
+        <h1>Animal Face Test</h1>
+        <p>Am I a Dog or a Cat?</p>
+        
+        <div class="upload-container" onclick="document.getElementById('file-input').click()">
+            <p>Click to upload an image</p>
+            <input type="file" id="file-input" hidden accept="image/*">
+            <img id="image-preview" src="#" alt="Preview">
+        </div>
+
+        <div id="label-container"></div>
+        
+        <div id="disqus_thread" style="margin-top: 3rem;"></div>
+    </div>
+    <script src="animal-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
